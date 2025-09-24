@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Recipe Page</title>
+  </head>
+  <body>
+    <div
+      id="main_container"
+      class="bg-amber-50 sm:w-[70%] mx-auto mt-10 mb-10 rounded-2xl max-[380px]:mt-0 max-[380px]:mb-0 max-[380px]:rounded-[0px]"
+    >
+      <img
+        class="w-[100%] md:rounded-tl-[20px] lg:rounded-tl-[20px] rounded-tr-[20px]"
+        src="img/image-omelette.jpeg"
+        alt="img"
+      />
+
+      <h1 class="ml-8 mt-7 leading-12">Simple Omlette Recipe</h1>
+      <p class="ml-8 mt-4 text-gray-500 text-[18px] w-[85%]">
+        An easy and quick dish, perfect for any meal. This classes omlette
+        combines beaten eggs coocked to perfection, optionaly filled width your
+        choise of cheese, vegatables, or meats.
+      </p>
+      <!-- {/* prepatation time */} -->
+      <div class="bg-pink-50 w-[85%] mx-auto rounded-2xl h-[220px] mt-10">
+        <h2 class="text-2xl font-bold ml-5 pt-5 text-fuchsia-950">
+          Preparation time
+        </h2>
+        <ul
+          class="list-disc text-xl ml-14 mt-3 marker:text-fuchsia-900 flex flex-col gap-2"
+        >
+          <li>
+            <span class="font-bold">Total:</span> Approximitaly 10 minutes
+          </li>
+          <li><span class="font-bold">Preparation:</span> 5 minutes</li>
+          <li><span class="font-bold">Cooking:</span> 5 minutes</li>
+        </ul>
+      </div>
+      <!-- {/* ingredients */} -->
+      <div class="Ingredients">
+        <h2 class="ml-10 mt-5 text-amber-900">Ingredients</h2>
+        <ul
+          class="list-disc ml-15 marker:text-amber-900 text-[15px] mt-5 text-gray-600"
+        >
+          <li>2-3 large eggs</li>
+          <li>salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter oil</li>
+          <li>
+            Optional filling: cheese, diced vegetables, coocked meats, herbs
+          </li>
+        </ul>
+      </div>
+      <hr class="w-[80%] mx-auto mt-5 text-gray-400 2xl:w-[95%]" />
+      <!-- {/* instructions */} -->
+      <div class="Instructions">
+        <h2 class="ml-10 mt-5 text-amber-900">Instructions</h2>
+        <ol
+          class="list-decimal ml-15 text-lg w-[75%] marker:text-amber-900 marker:font-bold text-gray-600"
+        >
+          <li>
+            <span class="font-bold">Beat the eggs:</span> In a bowl, beat the
+            eggs with a pinch of salt and pepper until they are well mixed. You
+            can add a tablespoon of water or milk for a fluffier textur.
+          </li>
+          <li>
+            <span class="font-bold">Heat the pan:</span> Place a non steack
+            frying pan over medium heat and add butter or oil.
+          </li>
+          <li>
+            <span class="font-bold">Cook the omelette:</span> Once the butter is
+            melted and bubbling, pour in the eggs. Tilt the pant to the ensure
+            the eggs evenly coat the surface.
+          </li>
+          <li>
+            <span class="font-bold">Add filling (optional):</span> When the eggs
+            begin to set at the edges but are still slightly running at the
+            middle, sprinckle you chosen filling over one half of the omellette.
+          </li>
+          <li>
+            <span class="font-bold">Fold and serve:</span> As the omellete
+            continius to cook, carefuly lift one adge and fold it over the
+            fillings. Let it cook for another minute, then slide it onto a
+            plate.
+          </li>
+          <li>
+            <span class="font-bold">Enjoy:</span> serve hot, with additional
+            salt and pepper if needed.
+          </li>
+        </ol>
+      </div>
+      <hr class="w-[80%] mx-auto mt-5 text-gray-400 2xl:w-[95%]" />
+      <!-- {/* Nutrition */} -->
+      <div class="nutritions">
+        <h2 class="ml-10 mt-5 text-amber-900">Nutrition</h2>
+        <h4 class="ml-10 w-[80%] text-[16px] text-gray-700 mt-5">
+          The table below shows nutritional values per serving without the
+          additional filling.
+        </h4>
+        <p class="flex gap-20 ml-20 mt-5 text-xl text-gray-700">
+          Calories <span class="text-amber-900 font-bold">277cal</span>
+        </p>
+        <hr class="w-[80%] mx-auto mt-3 text-gray-400 2xl:w-[95%]" />
+        <p class="flex gap-25 ml-20 mt-5 text-xl text-gray-700">
+          Carbs <span class="text-amber-900 font-bold">0g</span>
+        </p>
+        <hr class="w-[80%] mx-auto mt-3 text-gray-400 2xl:w-[95%]" />
+        <p class="flex gap-22 ml-20 mt-5 text-xl text-gray-700">
+          Protein <span class="text-amber-900 font-bold">20g</span>
+        </p>
+        <hr class="w-[80%] mx-auto mt-3 text-gray-400 2xl:w-[95%]" />
+        <p class="flex gap-32 ml-20 mt-5 text-xl text-gray-700 pb-10">
+          Fat <span class="text-amber-900 font-bold">22g</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

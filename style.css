@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+}
+.Ingredients h2 {
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+}
+.Ingredients ul li {
+  padding: 3px;
+}
+.Instructions h2 {
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+}
+ol li {
+  padding-left: 20px;
+  padding: 10px;
+  line-height: 25px;
+}
+.nutritions h2 {
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+}
+body {
+  background-color: rgb(233, 227, 208);
+}
